@@ -7,6 +7,3 @@ Når testen kjøres vil det bli lagd csv-filer for hver url. Hvis du laster ned 
 - Først må man ha node.js lastet ned på PC-en. Download til nodejs er: https://nodejs.org/en/download/. 
 - I terminal må du laste ned Lighthouse med kommandoen "npm install -g lighthouse". 
 - Deretter kan du kjøre filen med kommandolinjen "node lighthouse-test.js"
-
-## Litt småfeil i koden
-- Hvis du åpner csv-filene i excel vil de gis ut i samme kolonne. Hvis du åpner i "numbers" på Mac vil utskriften se riktig ut.

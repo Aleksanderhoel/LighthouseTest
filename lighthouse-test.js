@@ -12,11 +12,11 @@ const apps = [
 const numberOfTests = 1;
 
 function writePerformanceToCSV(appName, performanceScore, outputPath) {
-  const csvRow = `"${appName}",${performanceScore.toFixed(2)}\n`;
+  const csvRow = `"${appName}";${performanceScore.toFixed(2)}\n`;
 
   // Check if the file exists, if not, add headers
   if (!fs.existsSync(outputPath)) {
-    fs.writeFileSync(outputPath, '"App","Performance Score"\n', 'utf8');
+    fs.writeFileSync(outputPath, 'App;Performance Score\n', 'utf8');
   }
 
   fs.appendFileSync(outputPath, csvRow, 'utf8');
