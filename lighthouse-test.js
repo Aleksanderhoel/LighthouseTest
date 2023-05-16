@@ -7,10 +7,10 @@ const path = require('path');
 
 //Definerer et array med URLen og navn til webapplikasjonene som objekter.
 const apps = [
-  { name: 'Nextjs', url: 'https://bachelor23-nextjs-app.vercel.app/?fbclid=IwAR2KTdxMR1WHj5YmuRjHzcN_UgUMLeLS2yZNTE_zl5g5GDmev9mr_Aki6to' },
-  { name: 'React', url: 'https://bachelor23-react.vercel.app/?fbclid=IwAR1BtubzlLt5CnPe88MDvNXFfuEiIl06uSGyDkf3z-tB_JSo_Spxiq2ET58' },
-  { name: 'Svelte', url: 'https://bachelor23.vercel.app/?fbclid=IwAR1BtubzlLt5CnPe88MDvNXFfuEiIl06uSGyDkf3z-tB_JSo_Spxiq2ET58' },
-  { name: 'Astro', url: 'https://bachelor23-astro.vercel.app/?fbclid=IwAR1t4IKMJU36GGpWqmovjTsjC_12HtQeA1JwCS-RqBg7NWB9LdUSqmCBeZs' },
+  { name: 'Nextjs', url: 'https://bachelor23-nextjs-app.vercel.app/' },
+  { name: 'React', url: 'https://bachelor23-react.vercel.app/' },
+  { name: 'Svelte', url: 'https://bachelor23.vercel.app/' },
+  { name: 'Astro', url: 'https://bachelor23-astro.vercel.app/' },
 ];
 //Definerer antall ganger testen skal kjøres per app.
 const numberOfTests = 50;
